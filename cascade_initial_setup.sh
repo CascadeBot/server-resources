@@ -79,5 +79,5 @@ echo_green "Installing jarservice!"
 if [ ! -f jarservice ]; then
 	wget https://github.com/CascadeBot/server-resources/raw/master/jarservice
 fi
-cp jarservice /usr/bin/jarservice
+cp -v jarservice /usr/bin/jarservice
 chmod 755 /usr/bin/jarservice
